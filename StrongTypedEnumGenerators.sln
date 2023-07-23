@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrongTypedEnumGenerators", "src\StrongTypedEnumGenerators\StrongTypedEnumGenerators.csproj", "{36DDD04D-E30D-44D4-91CC-BA3EC5DF7420}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleConsole", "sample\SimpleConsole\SimpleConsole.csproj", "{25B21FF1-7DDC-4440-AC7E-BAA66447E720}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5422A401-5D2D-40DB-83B9-2EFE09F64E53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{AD25D75B-5CFB-473C-8B07-9DC4A8FFC768}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{267085BA-BCF7-4EA7-A931-57A4DDAD4115}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrongTypedEnumIntegrationTest", "test\StrongTypedEnumSnapshotIntegrationTest\StrongTypedEnumIntegrationTest.csproj", "{FDBF8ADA-76B4-4515-882E-A9365A4F2F0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrongTypedEnumSnapshotTest", "test\StrongTypedEnumSnapshotTest\StrongTypedEnumSnapshotTest.csproj", "{9177A190-22D9-4A58-924E-222D79DE54CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36DDD04D-E30D-44D4-91CC-BA3EC5DF7420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DDD04D-E30D-44D4-91CC-BA3EC5DF7420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DDD04D-E30D-44D4-91CC-BA3EC5DF7420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DDD04D-E30D-44D4-91CC-BA3EC5DF7420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25B21FF1-7DDC-4440-AC7E-BAA66447E720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25B21FF1-7DDC-4440-AC7E-BAA66447E720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25B21FF1-7DDC-4440-AC7E-BAA66447E720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25B21FF1-7DDC-4440-AC7E-BAA66447E720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDBF8ADA-76B4-4515-882E-A9365A4F2F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBF8ADA-76B4-4515-882E-A9365A4F2F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBF8ADA-76B4-4515-882E-A9365A4F2F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBF8ADA-76B4-4515-882E-A9365A4F2F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9177A190-22D9-4A58-924E-222D79DE54CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9177A190-22D9-4A58-924E-222D79DE54CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9177A190-22D9-4A58-924E-222D79DE54CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9177A190-22D9-4A58-924E-222D79DE54CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36DDD04D-E30D-44D4-91CC-BA3EC5DF7420} = {5422A401-5D2D-40DB-83B9-2EFE09F64E53}
+		{25B21FF1-7DDC-4440-AC7E-BAA66447E720} = {AD25D75B-5CFB-473C-8B07-9DC4A8FFC768}
+		{FDBF8ADA-76B4-4515-882E-A9365A4F2F0A} = {267085BA-BCF7-4EA7-A931-57A4DDAD4115}
+		{9177A190-22D9-4A58-924E-222D79DE54CB} = {267085BA-BCF7-4EA7-A931-57A4DDAD4115}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83CE63D1-4AAE-4D51-830A-9DA902150699}
+	EndGlobalSection
+EndGlobal
