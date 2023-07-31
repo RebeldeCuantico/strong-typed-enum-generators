@@ -11,8 +11,20 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: Setup .NET SDK
-      uses: actions/setup-dotnet@v1
+    # - name: Setup .NET SDK
+    #   uses: actions/setup-dotnet@v1
+    - uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: |
+          8.0.100-preview.6.23330.14
+          7.0.x
+          6.0.x
+          5.0.x
+          3.1.x
+          2.1.x
+          2.0.x
+
+
     - name: Build
       run: dotnet build -c Release
     - name: Test
