@@ -5,6 +5,7 @@
     <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
     <LangVersion>Latest</LangVersion>
     <IncludeBuildOutput>false</IncludeBuildOutput>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
